@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #403121;
+  font-family: 'Noto Serif', serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/background3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 40vw;
+  height: 60vh;
+  background-color: rgba(245, 245, 245, 0.678);
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  
+}
+.content {
+  width: 40vw;
+  height: 50vh;
+}
+.logo {
+  width: 40vw;
+  height: 10vh;
+  padding: 1vh 1vw;
+}
+.fa-instagram{
+  margin-top: 1vh;
+  color: #468966;
+  font-size: 1.6rem;
+}
+
+.signIn{
+    width: 12vw;
+    height: 8vh;
+    font-size: 2rem;
+    margin-left: 1vw;
+}
+.e-mail{
+  width: 40vw;
+  height: 8vh;
+  padding: 1vh 1vw;
+}
+#email{
+  width: 37vw;
+  height: 6vh;
+  outline: none;
+  background-color: transparent;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-bottom: 1px #f1b24b solid;
+  font-size: 1rem;
+  font-style: italic;
+  opacity: 0.3;
+}
+#email::after{
+    opacity: none;
+}
+
+
+.account{
+    width: 40vw;
+    height: 10vh;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .create a{
+      margin-left: 0.8vw;
+      text-decoration: none;
+      color: #20655f;
+     
+  }
+  .forgot{
+    width: 40vw;
+    height: 10vh;
+    padding: 1vh 1vw;
+  }
+.forgot a{
+      text-decoration: none;
+      color: #20655f;
+}
+
+
+
+
+.button {
+  width: 40vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+.button input{
+  width: 7vw;
+  height: 6vh;
+  border: hidden;
+  background-color: transparent;
+  font-size: 1.4rem;
+}
+
+.button input:hover{
+    color: #f1b24b;
+}
