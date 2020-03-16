@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #403121;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 body {
@@ -12,107 +12,116 @@ body {
   background-image: url(../img/background3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 main {
-  width: 40vw;
+  width: 35vw;
   height: 60vh;
   background-color: rgba(245, 245, 245, 0.678);
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  
 }
 .content {
-  width: 40vw;
+  width: 35vw;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .logo {
-  width: 40vw;
-  height: 10vh;
-  padding: 1vh 1vw;
+  width: 35vw;
+  height: 15vh;
+  padding: 3vh 3vw;
 }
-.fa-instagram{
-  margin-top: 1vh;
-  color: #468966;
-  font-size: 1.6rem;
+.logo:hover {
+  color: #d19432;
 }
 
-.signIn{
-    width: 12vw;
-    height: 8vh;
-    font-size: 2rem;
-    margin-left: 1vw;
+.fa-instagram {
+  margin-top: 1vh;
+  color: #468966;
+  font-size: 2.2vw;
 }
-.e-mail{
-  width: 40vw;
+
+.signIn {
+  width: 12vw;
+  height: 8vh;
+  font-size: 2vw;
+  margin-left: 1vw;
+  text-align: center;
+}
+.e-mail {
+  width: 35vw;
   height: 8vh;
   padding: 1vh 1vw;
+  text-align: center;
 }
-#email{
-  width: 37vw;
+#email {
+  width: 25vw;
   height: 6vh;
   outline: none;
   background-color: transparent;
   border-top: hidden;
   border-left: hidden;
   border-right: hidden;
-  border-bottom: 1px #f1b24b solid;
-  font-size: 1rem;
+  border-bottom: 0.2vh #d19432 solid;
+  font-size: 1.4vw;
   font-style: italic;
   opacity: 0.3;
-}
-#email::after{
-    opacity: none;
+  text-align: center;
 }
 
-
-.account{
-    width: 40vw;
-    height: 10vh;
-    padding: 1vh 1vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .create a{
-      margin-left: 0.8vw;
-      text-decoration: none;
-      color: #20655f;
-     
-  }
-  .forgot{
-    width: 40vw;
-    height: 10vh;
-    padding: 1vh 1vw;
-  }
-.forgot a{
-      text-decoration: none;
-      color: #20655f;
+.account {
+  width: 35vw;
+  height: 10vh;
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
 }
-
-
-
+.create a {
+  margin-left: 0.8vw;
+  text-decoration: none;
+  color: #20655f;
+}
+a:hover {
+  color: #f1b24b;
+}
+.forgot {
+  width: 35vw;
+  height: 10vh;
+  padding: 1vh 1vw;
+  text-align: center;
+}
+.forgot a {
+  text-decoration: none;
+  color: #20655f;
+  font-size: 1vw;
+}
 
 .button {
-  width: 40vw;
+  width: 35vw;
   height: 15vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   padding-bottom: 4vh;
 }
-.button input{
+.button input {
   width: 7vw;
   height: 6vh;
   border: hidden;
   background-color: transparent;
-  font-size: 1.4rem;
+  font-size: 1vw;
+  margin-right: 2vw;
 }
 
-.button input:hover{
-    color: #f1b24b;
+.button input:hover {
+  color: #f1b24b;
 }
